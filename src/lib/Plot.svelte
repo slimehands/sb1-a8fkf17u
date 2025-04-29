@@ -7,7 +7,7 @@ $: results = liveQuery(async () => {
     //
     const res = await db
       .toArray();
-
+    console.log(res);
     // Return result
     return res;
   });
